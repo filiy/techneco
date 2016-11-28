@@ -1,2 +1,4 @@
 # techneco
-techneco website
+techneco website files
+
+Just css, html, and images
