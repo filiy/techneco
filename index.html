@@ -2,77 +2,13 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-
   <title>Techneco Consulting</title>
-
-  <style>
-    body {
-	font-family: "Open Sans",Arial,Helvetica,sans-serif;
-        color: #888A8E;
-	line-height: 1.4;
-    }
-
-    header, footer {
-	width:85%;
-        padding: 10px;
-	margin: 10px;
-	float: left;
-    }
-
-    img.displayed {
-     	display: block;
-     	margin-left: auto;
-    	margin-right: auto; 
-    }
-
-    section, article {
-	width:85%;
-        padding:10px;
-	margin: 10px;
-	float: left;
-
-    }
-
-    .circle-shad-img {
-	border-radius: 50%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
-
-    .info-block {
-	width: 17%;
-    }
-
-    .info-words {
-	width: 69%;
-    }
-
-    .clearboth { 
-	clear: both; 
-    }
-
-    .center {
-    	margin: auto;
-    	width: 75%;
-	border-style: solid;
-        border-width: 1px;
-    }
-
-
-    h1 {
-        font-weight: bold;
-        font-family: "Montserrat",Arial,Helvetica,sans-serif;
-        font-size: 30px;
-        color: #515151;
-	padding: 0px;
-	margin: 0px; 
-    }   
-
-  </style>
+  <link rel="stylesheet" href="techneco-style.css">
 </head>
+
 
 <body>
     <div class="center">
-        
 	<header>
             <img class="displayed" src="images/techneco-logo.png" width="500" height="200" alt="Techneco" >
 	</header>
@@ -84,12 +20,12 @@
 	    <article class="info-block">
 		<h2>Allison Brown</h2> 
 	        <img class="circle-shad-img" src=images/allison.jpg width="150" height="150" alt="Allison">
-	        <ul style="padding: 0;">
-		    <li>778-979-3079</li>
-	            <li> <a href="mailto:allisonlbrown@gmail.com"> allisonlbrown@gmail.com </a></li>
-		</ul>
-		<img src=images/linkedin.png width="35" height="26" alt="LinkedIN">
-		<img src=images/email-icon.png width="3s6" height="36" alt="Email">
+		
+		<article>
+		    <a href="https://www.linkedin.com/in/allisonlynnbrown" target="_blank"><img src=images/linkedin-icon.png width="34" height="34" alt="LinkedIN"></a>
+		    <a href="mailto:allisonlbrownATgmailDOTcom?subject=Techneco Consulting Inquiry" onclick = "this.href=this.href .replace(/AT/,'&#64;') .replace(/DOT/,'&#46;')"> <img src=images/gmail-icon.png width="34" height="34" alt="Email"></a>
+		    <a href=" " title="+1 778 929 3079"><img src=images/phone-icon.png width="34" height="34" alt="Phone"></a>
+		</article>
 	    </article>
 
 	    <article class="info-words">
@@ -105,11 +41,13 @@
 
 	    <article class="info-block">
 	        <h2>Philip Thomson</h2>
-		<img class="circle-shad-img" src=images/phil.jpg width="150" height="150" alt="Allison">
-		<ul style="padding: 0;">
-		    <li> <a href="mailto:thomson.p@gmail.com"> thomson.p@gmail.com </a> </li>
-		    <li>306-881-3079</li>
-		</ul>
+		<img class="circle-shad-img" src=images/phil.jpg width="150" height="150" alt="Phil">
+	    	
+		<article>
+		    <a href="https://www.linkedin.com/in/thomsonp" target="_blank"><img src=images/linkedin-icon.png width="34" height="34" alt="LinkedIN"></a>
+		    <a href="mailto:thomson.pATgmailDOTcom?subject=Techneco Consulting Inquiry" onclick = "this.href=this.href .replace(/AT/,'&#64;') .replace(/DOT/,'&#46;')"> <img src=images/gmail-icon.png width="34" height="34" alt="Email"></a>
+		    <a href=" " title="+1 306-881-3017"><img src=images/phone-icon.png width="34" height="34" alt="Phone"></a>
+	    	</article>
 	    </article>
 
 	    <article class="info-words">
@@ -156,6 +94,7 @@
 	<footer>
 	    <p>&copy; 2014 Monday Times. All rights reserved.</p>
 	</footer>
+  <br class="clearboth">
     </div>
 </body>
 </html>
